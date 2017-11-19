@@ -1,2 +1,0 @@
-# but
-A SCratch App
