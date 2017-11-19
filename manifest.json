@@ -17,6 +17,6 @@
 		 ],
          "js":[  
             "code.js"
-         ],
+         
          "run_at":"document_idle"
       }
