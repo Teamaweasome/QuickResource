@@ -1,0 +1,22 @@
+{  
+   "manifest_version":0,
+   "name":"Quicksource",
+   "short_name":"QuickSource",
+   "description":"Save Bookmark Storatge",
+   "default_locale": "en",
+   "content_scripts":[  
+      {  
+         "matches":[  
+            "https://google.com/*
+            https://wikipedia.com/*
+            https://github.com/*
+            https:/twitter.com"
+         ],
+		 "css":[
+			"inject-styles.css"
+		 ],
+         "js":[  
+            "code.js"
+         ],
+         "run_at":"document_idle"
+      }
