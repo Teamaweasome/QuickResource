@@ -1,5 +1,5 @@
 {  
-   "manifest_version":03
+   "manifest_version":0,
    "name":"Quicksource",
    "short_name":"QuickSource",
    "description":"Save Bookmark Storatge",
@@ -10,16 +10,13 @@
             "https://google.com/*
             https://wikipedia.com/*
             https://github.com/*
-            https:/twitter.com/ "
-		 [,
-		 
-        "html": {
-	      default_popup": "popup.html"
-	 },
+            https:/twitter.com"
+         ],
 		 "css":[
-			"style.css"
+			"inject-styles.css"
 		 ],
          "js":[  
             "code.js"
-         
+         ],
+         "run_at":"document_idle"
       }
